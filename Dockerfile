@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:17-oracle
 
 COPY  target/*.jar  myapp.jar
 
